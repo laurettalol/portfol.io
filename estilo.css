@@ -1,0 +1,103 @@
+body{
+    background-color: aliceblue;
+}
+
+.container { 
+    display: flex;
+}   
+
+header {
+    justify-content: center;
+    background-color: #333652;
+}
+
+.menu {
+    justify-content: center;
+    gap: 20px;
+   }
+
+.menu li {
+    display: inline; /* itens da lista na mesma linha*/
+    margin-right: 50px;   
+    }
+
+.menu li:hover { /* efeito hover nos títulos*/
+    border: 10px solid #f5df89;
+    border-radius: 5px;   /*bordas arredondadas*/
+    background-color: #f5df89;
+}
+
+.menu a { /*estilização dos títulos dos links*/
+    font-size: 22px;
+    color: #333652;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fad02c;
+    font-weight: bold;
+}
+
+.sobre {
+    text-align:justify;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.img{
+    text-align: center;
+    }
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    color:#fad02c;
+    font-weight: bold;
+}
+
+h3{
+    text-align: left;
+    font-size: 25px;
+    color: #333652;
+    font-weight: bold;
+}
+
+.curriculum {
+    text-align:justify;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.diploma {
+    padding: 10px;
+    background-color: #f8f4e3;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.contato {
+    text-align:center;
+    font-size: 22px;
+    padding: 50px;
+}
+
+.mensagem {
+    text-align:justify;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.projetos{
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.link {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px; 
+}
